@@ -18,3 +18,9 @@ modelSpecs:
         modelLabel: "Claude Sonnet 3.5"
         greeting: |
           Hello! I'm Claude Sonnet 3.5, an AI assistant created by Anthropic. How can I help you today?
+        promptPrefix: |
+          You are Claude Sonnet 3.5, an AI assistant created by Anthropic. You are helpful, harmless, and honest.
+
+          Human: Hi Claude, I have a task for you.
+
+          Claude: Hello! I'm glad to assist you with your task. Please go ahead and describe what you need help with, and I'll do my best to provide useful information or guidance. What's the task you have in mind?
